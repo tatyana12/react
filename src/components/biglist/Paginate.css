@@ -1,0 +1,35 @@
+.Pg {
+    margin: 40px auto;
+    text-align: center;
+  }
+  
+  .Pg-button {
+    text-align: center;
+    border: none;
+    border-radius: 15px;
+    background-color: #1f7edc;
+    color: white;
+    cursor: pointer;
+    margin: 10px;
+    width: 44px;
+    height: 34px;
+  }
+  
+  .Pg-button:hover {
+    background-color: #30567b;
+    color: yellow;
+  }
+  
+  .Pg-button:focus {
+    outline: none;
+  }
+  
+  .Pg-button:disabled {
+    background-color: #101d29;
+    cursor: not-allowed;
+  }
+  
+  .Pg-info {
+    font-size: 12px;
+  }
+  

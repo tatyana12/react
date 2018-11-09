@@ -1,0 +1,52 @@
+.tb-container {
+    overflow-x: auto; /* Needed for table to be responsive */
+  }
+  
+  .tb {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+  
+  .tb-head {
+    background-color: #243647;
+  }
+  
+  .tb-head tr th {
+    padding: 10px 20px;
+    color: #afc2d3;
+    text-align: left;
+    font-size: 0.8rem;
+    font-weight: 400;
+  }
+  
+  .tb-body {
+    text-align: left;
+    background-color: #263c50;
+  }
+  
+  .tb-body tr td {
+    padding: 24px 20px;
+    border-bottom: 2px solid #87939e; /* #243647; */
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .tb-rank {
+    color: #afc2d3;
+    margin-right: 18px;
+    font-size: 12px;
+  }
+  
+  .tb-dollar {
+    color: #afc2d3;
+    margin-right: 6px;
+  }
+
+  .pct-raised {
+      color: limegreen;
+  }
+
+  .pct-fallen {
+      color: red;
+  }

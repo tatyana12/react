@@ -1,0 +1,48 @@
+.dt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 25px;
+    margin-bottom: 35px;
+    padding: 0 50px;
+  }
+  
+  .dt-heading {
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-style: italic;
+  }
+  
+  .dt-container {
+    width: 100%;
+    max-width: 400px;
+    margin-top: 25px;
+    padding: 35px 35px 0 35px;
+    border-radius: 5px;
+  }
+  
+  .dt-item {
+    margin-bottom: 45px;
+  }
+  
+  .dt-value {
+    border-radius: 25px;
+    background-color: #182b3d;
+    font-size: 0.8rem;
+    padding: 5px 10px;
+    margin-left: 5px;
+  }
+  
+  .dt-title {
+    display: block;
+    color: lightblue;
+    font-size: 0.7rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .dt-dollar {
+    color: lightblue;
+    margin-right: 5px;
+  }
+  
