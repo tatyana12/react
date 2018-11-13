@@ -1,13 +1,13 @@
-{
+  "homepage": "http://tatyana12.github.io/react",{
   "name": "react-coin",
   "version": "1.0.0",
   "private": true,
   "devDependencies": {
-    "react-scripts": "1.1.0"
+    "react": "^16.6.3",
+    "react-scripts": "^2.1.1"
   },
   "dependencies": {
     "prop-types": "^15.6.0",
-    "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-router-dom": "^4.2.2"
   },
@@ -15,6 +15,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+     "deploy": "react -d build"
   }
 }
