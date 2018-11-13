@@ -1,5 +1,5 @@
-{  
-"homepage": "http://tatyana12.github.io/react",
+{
+  "homepage": "http://tatyana12.github.io/react",
   "name": "react-coin",
   "version": "1.0.0",
   "private": true,
@@ -18,6 +18,12 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-     "deploy": "react -d build"
-  }
+    "deploy": "react -d build"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }
